@@ -1,0 +1,94 @@
+#my-photo{
+   border-radius :50%;
+  width: 186px;
+  height: 186px;
+  margin-right: 50px;
+
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20;
+  vertical-align: text-top;
+  color: rgba(129, 10, 10, 0.99);
+}
+
+/* styles.css */
+.circle-series-container {
+  display: flex;
+  justify-content: flex-start; /* Aligns children to the right */
+  align-items: center;
+  flex-direction: row;
+
+}
+
+
+.circle_series .material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 10;
+  font-size: 15px;
+  vertical-align: text-bottom;
+
+
+}
+
+#circle1 {
+  padding-left: 5px;
+}
+#circle12 {
+  padding-left: 5px;
+
+}
+#circle13 {
+  padding-left: 5px;
+  font-variation-settings: 'FILL' 10;
+}
+#circle23 {
+  font-variation-settings: 'FILL' 0;
+}
+#circle33 {
+  font-variation-settings: 'FILL' 0;
+}
+#circle43 {
+  font-variation-settings: 'FILL' 0;
+}
+#circle53 {
+  font-variation-settings: 'FILL' 0;
+}
+
+.book {
+  padding: 10px; border: 1px solid;
+  width: fit-content;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*.container {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*  padding: 20px;*/
+/*}*/
+
+/*.left-column, .right-column {*/
+/*  width: 48%; !* Adjust as needed *!*/
+/*  !*padding: 20px;*!*/
+/*  !*border: 1px solid #ccc; !* Add borders to columns for clarity *!*!*/
+/*  !*box-sizing: border-box; !* Include border width in column width *!*!*/
+/*}*/
+
+/*.separator {*/
+/*  width: 2px;*/
+/*  background-color: #333;*/
+/*  height: 100%;*/
+/*}*/
+
