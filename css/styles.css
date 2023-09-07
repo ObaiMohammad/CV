@@ -1,10 +1,43 @@
+my_cv
+{
+  /*text-align: center;*/
+  font-size: 10px;
+  color: white;
+  /*padding: 10px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  color: black;
+  column-gap: 50px;
+}
+.one
+{
+  float: left;
+  width: 600px;
+  height: 1300px;
+  border: 100px;
+  margin-right: 50px;
+}
+.two
+{
+  float: left;
+  width: 600px;
+  height: 1300px;
+
+}
+
 #my-photo{
-   border-radius :50%;
+  border-radius :50%;
   width: 186px;
   height: 186px;
   margin-right: 50px;
 
 
+}
+.contact-info{
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -14,6 +47,8 @@
     'opsz' 20;
   vertical-align: text-top;
   color: rgba(129, 10, 10, 0.99);
+
+
 }
 
 /* styles.css */
@@ -71,24 +106,42 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/*.container {*/
+.contact-info{
+  padding-top: 25px;
+
+  /*text-align: center;*/
+  /*padding: 10px;*/
+  display: flex;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*height: 100%;*/
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+}
+
+/*#skills{*/
 /*  display: flex;*/
-/*  flex-direction: row;*/
-/*  justify-content: space-between;*/
-/*  align-items: center;*/
-/*  padding: 20px;*/
+/*  gap: 5px;*/
+/*flex-wrap: wrap*/
 /*}*/
 
-/*.left-column, .right-column {*/
-/*  width: 48%; !* Adjust as needed *!*/
-/*  !*padding: 20px;*!*/
-/*  !*border: 1px solid #ccc; !* Add borders to columns for clarity *!*!*/
-/*  !*box-sizing: border-box; !* Include border width in column width *!*!*/
-/*}*/
 
-/*.separator {*/
-/*  width: 2px;*/
-/*  background-color: #333;*/
-/*  height: 100%;*/
-/*}*/
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  flex-direction: row;
+  column-gap: 5px;
+}
 
+.skill{
+  padding: 10px; border: 1px solid;
+  width: fit-content;
+
+}
+
+.info{
+  padding-bottom: 15px;
+}

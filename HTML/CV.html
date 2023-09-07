@@ -1,27 +1,28 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My_CV</title>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <title>First Document</title>
+  <link rel="stylesheet" type="text/css" href="../css/Styles.css">
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
-<div class="container">
-  <div class="centered-content">
+
+<div class="my_cv">
+  <div class="one">
     <div class="left-column">
-      <!-- Content for the left column -->
-<!--      <img src="../img/ObaiMohammad.jpeg" alt="My Photo" width="186" height="186" style="float:left; margin:0px 10px">-->
-      <img src="../img/ObaiMohammad.jpeg" alt="My Photo" id="my-photo" style="float:left; margin:0px 10px">
-      <header>
-        <h1>Obai Mohammad</h1>
-        <h2>Information Engineer Student</h2>
-        <p> An aspiring software engineer.
-          Perceived as an energetic and committed person.
-          looking to achieve high career growth through a continuous process of learning.
-        </p>
-      </header>
+
+      <div class="info">
+        <img src="../img/ObaiMohammad.jpeg" alt="My Photo" id="my-photo" style="float:left; margin:0px 10px">
+        <header>
+          <h1>Obai Mohammad</h1>
+          <h2>Information Engineer Student</h2>
+          <p> An aspiring software engineer.
+            Perceived as an energetic and committed person.
+            looking to achieve high career growth through a continuous process of learning.
+          </p>
+        </header>
+      </div>
+
 
       <section id="education">
         <h2>Education</h2>
@@ -82,118 +83,130 @@
           </li>
         </ul>
       </section>
-    </div>
-    <div class="separator"></div>
-    <div class="right-column">
-      <!-- Content for the right column -->
-      <a href="mailto:obai.mohamed.bis@gmail.com" class="info">
+    </div></div>
+</div>
+
+<div class="two"><!-- Content for the right column -->
+
+  <div class="contact-info">
+    <div>
+      <a href="mailto:obai.mohamed.bis@gmail.com">
         obai.mohamed.bis@gmail.com
-      </a>
-      <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined">
       mail
       </span>
-      <a href="tel:+393886273275" class="info"> +39 3886273275 </a>
-
-
-      <span class="material-symbols-outlined">
+      </a>
+    </div>
+    <div>
+      <a href="tel:+393886273275" > +39 3886273275
+        <span class="material-symbols-outlined">
         phone_iphone
       </span>
-      <a href="https://shorturl.at/adlnN" target="_blank" class="info">
-        Padova,Italy
       </a>
-      <span class="material-symbols-outlined">
+    </div>
+    <div>
+      <a href="https://shorturl.at/adlnN" target="_blank" >
+        Padova,Italy
+        <span class="material-symbols-outlined">
       location_on
       </span>
-      <a href="https://www.linkedin.com/in/obai-mohammad/" target="_blank" class="info">
-        https://www.linkedin.com/in/obai-mohammad/
       </a>
-      <img src="../img/linkedin.png" alt="LinkedIn" width="25" height="25" style="float:right; margin:0px 0px">
-
-      <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill"> JAVA</div>
-        <div class="skill"> JavaScript</div>
-        <div class="skill"> PostgreSQL</div>
-        <div class="skill"> Spring Boot</div>
-        <div class="skill"> Rests API</div>
-        <div class="skill"> HTML</div>
-        <div class="skill"> CSS</div>
-        <div class="skill"> Git</div>
-        <div class="skill"> CI/CD</div>
-        <div class="skill"> Docker</div>
-        <div class="skill"> Unit Testing</div>
-
-      </section>
-
-      <section id="organizations">
-        <h2>ORGANIZATIONS</h2>
-        <ul>
-          <li>
-            <p class="organization_name "> Syrian Engineers Association</p>
-            <p class="date"> 2019 , Present</p>
-            <p class="location"> Damascus,Syria</p>
-            <a href="http://www.osea.org.sy/" target="_blank"> http://www.osea.org.sy </a>
-          </li>
-        </ul>
-      </section>
-      <section id="languages">
-        <h2>LANGUAGES</h2>
-        <ul>
-
-          <li>
-            <div class="circle-series-container">
-              Arabic
-              <div class="circle_series">
-                <span class="material-symbols-outlined" id="circle1"> circle</span>
-                <span class="material-symbols-outlined" id="circle2"> circle</span>
-                <span class="material-symbols-outlined" id="circle3"> circle</span>
-                <span class="material-symbols-outlined" id="circle4"> circle</span>
-                <span class="material-symbols-outlined" id="circle5"> circle</span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="circle-series-container">
-              English
-              <div class="circle_series">
-                <span class="material-symbols-outlined" id="circle12"> circle</span>
-                <span class="material-symbols-outlined" id="circle22"> circle</span>
-                <span class="material-symbols-outlined" id="circle32"> circle</span>
-                <span class="material-symbols-outlined" id="circle42"> circle</span>
-                <span class="material-symbols-outlined" id="circle52"> circle</span>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="circle-series-container">
-              Italian
-              <div class="circle_series">
-                <span class="material-symbols-outlined" id="circle13"> circle</span>
-                <span class="material-symbols-outlined" id="circle23"> circle</span>
-                <span class="material-symbols-outlined" id="circle33"> circle</span>
-                <span class="material-symbols-outlined" id="circle43"> circle</span>
-                <span class="material-symbols-outlined" id="circle53"> circle</span>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section id=" Books">
-        <h2>Books</h2>
-          <p class="book">Java A Beginner’s Guide, 8th Edition</p>
-          <p class="book">Data Structures and Algorithms in Java, 6th Edition</p>
-          <p class="book">Spring in Action 6th.Edition</p>
-          <p class="book">Cloud Native Patterns</p>
-          <p class="book">Clean Code: A Handbook of Agile Software Craftsmanship</p>
-
-
-      </section>
-
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/obai-mohammad/" target="_blank" >
+        www.linkedin.com/in/obai-mohammad/
+        <img src="../img/linkedin.png" alt="LinkedIn" width="20" height="20" >
+      </a>
     </div>
   </div>
+
+
+
+
+
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+      <p class="skill"> JAVA</p>
+      <p class="skill"> JavaScript</p>
+      <p class="skill"> PostgreSQL</p>
+      <p class="skill"> Spring Boot</p>
+      <p class="skill"> Rests API</p>
+      <p class="skill"> HTML</p>
+      <p class="skill"> CSS</p>
+      <p class="skill"> Git</p>
+      <p class="skill"> CI/CD</p>
+      <p class="skill"> Docker</p>
+      <p class="skill"> Unit Testing</p>
+    </div>
+
+  </section>
+  <section id="organizations">
+    <h2>ORGANIZATIONS</h2>
+    <ul>
+      <li>
+        <p class="organization_name "> Syrian Engineers Association</p>
+        <p class="date"> 2019 , Present</p>
+        <p class="location"> Damascus,Syria</p>
+        <a href="http://www.osea.org.sy/" target="_blank"> http://www.osea.org.sy </a>
+      </li>
+    </ul>
+  </section>
+  <section id="languages">
+    <h2>LANGUAGES</h2>
+    <ul>
+
+      <li>
+        <div class="circle-series-container">
+          Arabic
+          <div class="circle_series">
+            <span class="material-symbols-outlined" id="circle1"> circle</span>
+            <span class="material-symbols-outlined" id="circle2"> circle</span>
+            <span class="material-symbols-outlined" id="circle3"> circle</span>
+            <span class="material-symbols-outlined" id="circle4"> circle</span>
+            <span class="material-symbols-outlined" id="circle5"> circle</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="circle-series-container">
+          English
+          <div class="circle_series">
+            <span class="material-symbols-outlined" id="circle12"> circle</span>
+            <span class="material-symbols-outlined" id="circle22"> circle</span>
+            <span class="material-symbols-outlined" id="circle32"> circle</span>
+            <span class="material-symbols-outlined" id="circle42"> circle</span>
+            <span class="material-symbols-outlined" id="circle52"> circle</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="circle-series-container">
+          Italian
+          <div class="circle_series">
+            <span class="material-symbols-outlined" id="circle13"> circle</span>
+            <span class="material-symbols-outlined" id="circle23"> circle</span>
+            <span class="material-symbols-outlined" id="circle33"> circle</span>
+            <span class="material-symbols-outlined" id="circle43"> circle</span>
+            <span class="material-symbols-outlined" id="circle53"> circle</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id=" Books">
+    <h2>Books</h2>
+    <p class="book">Java A Beginner’s Guide, 8th Edition</p>
+    <p class="book">Data Structures and Algorithms in Java, 6th Edition</p>
+    <p class="book">Spring in Action 6th.Edition</p>
+    <p class="book">Cloud Native Patterns</p>
+    <p class="book">Clean Code: A Handbook of Agile Software Craftsmanship</p>
+  </section>
 </div>
 
 
-<script src="../js/script.js"></script>
 </body>
 </html>
